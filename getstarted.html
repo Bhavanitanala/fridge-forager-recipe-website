@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="getstrated.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">FridgeForager</div>
+            <div class="auth-links">
+                <a href="index.html">Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="getstarted-form-section">
+            <div class="getstarted-form-container">
+                <h2>Get Started</h2>
+                <form id="signupForm">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                        <small id="emailError" class="error"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" required>
+                        <small id="usernameError" class="error"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" required>
+                        <small id="passwordError" class="error"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password:</label>
+                        <input type="password" id="confirmPassword" required>
+                        <small id="confirmPasswordError" class="error"></small>
+                    </div>
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="signin.html">Sign In</a></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="help.html">Help</a>
+            <a href="about.html">About</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+        </div>
+    </footer>
+
+    <script src="getstarted.js"></script>
+</body>
+</html>

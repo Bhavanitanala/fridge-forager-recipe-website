@@ -1,0 +1,126 @@
+<h2>Help</h2>
+
+<section id="help-faqs">
+    <h3>Frequently Asked Questions</h3>
+    <div class="help-section">
+        <button class="help-toggle">What is FridgeForager?</button>
+        <div class="help-details">
+            <p>FridgeForager is a web application designed to simplify meal planning and reduce food waste. It allows you to discover recipes based on the ingredients you already have in your kitchen,and to help adults who are away from sweet home.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">How do I search for recipes?</button>
+        <div class="help-details">
+            <p>To search for recipes, enter your ingredients in the input field on the homepage, separated by commas (e.g., "chicken, broccoli, rice"). Then, click the "Forage Recipes" button to display a list of recipes that match your ingredients.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">What types of ingredients can I use?</button>
+        <div class="help-details">
+            <p>You can use a wide variety of ingredients, including fruits, vegetables, meats, dairy products, grains, herbs, spices, and more. Try to be specific with your ingredients for better results (e.g., "boneless chicken breast" instead of just "chicken").</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">Can I save my favorite recipes?</button>
+        <div class="help-details">
+            <p>The ability to save favorite recipes is a feature that we are planning to implement in the future. Stay tuned for updates on new features and functionality!</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">How do I create an account?</button>
+        <div class="help-details">
+            <p>To create an account, click on the "Get Started" button in the header. You will be prompted to enter your email address, username, and password. Follow the instructions to complete the registration process.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">I forgot my password. How can I reset it?</button>
+        <div class="help-details">
+            <p>If you have forgotten your password, click on the "Sign In" link in the header. On the sign-in page, there should be a "Forgot Password" link. Click on this link and enter your email address. We will send you instructions on how to reset your password.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">Is my data secure?</button>
+        <div class="help-details">
+            <p>We take data security very seriously. We use industry-standard security measures to protect your personal information. Please refer to our Privacy Policy for detailed information on how we handle and secure your data.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">How do I contact support?</button>
+        <div class="help-details">
+            <p>You can contact our support team by sending an email to <a href="mailto:support@fridgeforager.com">support@fridgeforager.com</a>. We will do our best to respond to your inquiry as quickly as possible.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">How can I contribute recipes to FridgeForager?</button>
+        <div class="help-details">
+            <p>We welcome your recipe contributions! Please send your recipe submissions to <a href="mailto:recipes@fridgeforager.com">recipes@fridgeforager.com</a>. Our team will review your submission and consider adding it to our database.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">Are there any dietary filters available?</button>
+        <div class="help-details">
+            <p>Currently, FridgeForager does not have specific dietary filters. However, you can use keywords related to dietary preferences (e.g., "vegetarian," "vegan," "gluten-free") in your search queries to find relevant recipes. We plan to add more advanced filtering options in the future.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">What browsers are supported by FridgeForager?</button>
+        <div class="help-details">
+            <p>FridgeForager is designed to work with modern web browsers, including Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge. For the best experience, we recommend using the latest version of your preferred browser.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">How often is the recipe database updated?</button>
+        <div class="help-details">
+            <p>We are constantly working to expand our recipe database. New recipes are added regularly to provide you with a diverse and growing collection of culinary options. Check back frequently for new additions!</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">Is there a mobile app for FridgeForager?</button>
+        <div class="help-details">
+            <p>At this time, FridgeForager is only available as a web application. However, the website is designed to be responsive and accessible on mobile devices, so you can easily use it on your smartphone or tablet.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">How can I report a bug or issue with the website?</button>
+        <div class="help-details">
+            <p>If you encounter any bugs or technical issues while using FridgeForager, please let us know by sending an email to <a href="mailto:bugs@fridgeforager.com">bugs@fridgeforager.com</a>. Please provide as much detail as possible about the issue, including the steps to reproduce it, so we can investigate and resolve it promptly.</p>
+        </div>
+    </div>
+
+    <div class="help-section">
+        <button class="help-toggle">Are there any plans to add a meal planning feature?</button>
+        <div class="help-details">
+            <p>A meal planning feature is a popular request, and we are considering adding it to FridgeForager in the future. We are always looking for ways to enhance the user experience and provide more helpful tools for meal preparation. Stay tuned for updates on new features!</p>
+        </div>
+    </div>
+
+</section>
+
+<script>
+    // Help Page Functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const helpContentDiv = document.getElementById('help-content');
+        if (helpContentDiv) {
+            const helpToggles = document.querySelectorAll('.help-toggle');
+            helpToggles.forEach(toggle => {
+                toggle.addEventListener('click', function() {
+                    const details = this.nextElementSibling;
+                    details.style.display = details.style.display === 'none' ? 'block' : 'none';
+                });
+            });
+        }
+    });
+</script>

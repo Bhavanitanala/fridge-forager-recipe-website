@@ -1,0 +1,74 @@
+<h2>About Us</h2>
+
+<section id="about-mission">
+    <h3>Our Mission</h3>
+    <p>
+        FridgeForager's mission is to empower home cooks to create delicious meals with the ingredients they already have, reducing food waste and fostering culinary creativity. We believe that everyone should have access to the tools and resources they need to make the most of their kitchen.
+    </p>
+</section>
+
+<section id="about-team">
+    <h3>Our Team</h3>
+    <div class="about-section">
+        <button class="about-toggle">Bhavani tanala - Founder & Lead Developer</button>
+        <div class="about-details">
+            <p>Bhavani is a ug student  with a love for food and a vision for making cooking more accessible. SHe founded FridgeForager to help people reduce food waste and young people who are away from home and miss food to make easy for them and discover the joy of cooking with simple ingredients.</p>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <button class="about-toggle">Bhavani tanala - Recipe Developer & Content Creator</button>
+        <div class="about-details">
+            <p>bhavani is a ug student who contributes her culinary expertise to FridgeForager. She creates delicious and easy-to-follow recipes that inspire users to get creative in the kitchen.</p>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <button class="about-toggle">Bhavani tanala - UX/UI Designer</button>
+        <div class="about-details">
+            <p>Bhavani is a skilled UX/UI designer focused on creating intuitive and user-friendly interfaces. She is responsible for the design and user experience of FridgeForager, ensuring that it is easy to use and visually appealing.</p>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <button class="about-toggle">Bhavani tanala - Marketing & Community Manager</button>
+        <div class="about-details">
+            <p>bhavani is a marketing and community manager who is passionate about spreading the word about FridgeForager. SHe is responsible for building and engaging with the FridgeForager community, promoting the platform, and gathering user feedback.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about-features">
+    <h3>Key Features</h3>
+    <ul>
+        <li>Ingredient-based recipe search: Find recipes based on the ingredients you have on hand.</li>
+        <li>User account creation: Create an account to save your favorite recipes and personalize your experience.</li>
+        <li>Recipe saving and organization: Save your favorite recipes to your account for easy access and organization.</li>
+        <li>Personalized recipe recommendations: Receive tailored recipe suggestions based on your preferences and dietary needs.</li>
+        <li>Meal planning tools: Plan your meals for the week and create shopping lists based on your selected recipes.</li>
+        <li>Community forum: Connect with other FridgeForager users, share recipes, and get cooking tips.</li>
+    </ul>
+</section>
+
+<section id="about-contact">
+    <h3>Contact Us</h3>
+    <p>
+        If you have any questions, feedback, or inquiries, please feel free to contact us at <a href="mailto:info@fridgeforager.com">info@fridgeforager.com</a>. We would love to hear from you!
+    </p>
+</section>
+
+<script>
+    // About Page Functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const aboutContentDiv = document.getElementById('about-content');
+        if (aboutContentDiv) {
+            const aboutToggles = document.querySelectorAll('.about-toggle');
+            aboutToggles.forEach(toggle => {
+                toggle.addEventListener('click', function() {
+                    const details = this.nextElementSibling;
+                    details.style.display = details.style.display === 'none' ? 'block' : 'none';
+                });
+            });
+        }
+    });
+</script>

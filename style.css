@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.auth-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.get-started {
+    background-color: #27ae60;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+#hero {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: right;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.start-cooking {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#input-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #888;
+}
+
+#ingredients {
+    width: 100%;
+    height: 100px;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+#find-recipes {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recipe {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+.recipe h3 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
